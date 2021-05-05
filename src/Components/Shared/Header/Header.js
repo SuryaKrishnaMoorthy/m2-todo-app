@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Header = () => {
-	return <h1>Task Manager</h1>;
+	return <h3>Task Manager</h3>;
 }
 
 export default Header;
