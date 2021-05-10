@@ -1,5 +1,6 @@
 import Header from './components/shared/Header/Header';
 import Footer from './components/shared/Footer/Footer';
+import TaskManager from './components/TaskManager/TaskManager';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
 
       <div className="row">
         <div className="col">
-          Task Manager
+        <TaskManager />
         </div>
       </div>
 
