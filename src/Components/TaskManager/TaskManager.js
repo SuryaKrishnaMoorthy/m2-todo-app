@@ -1,6 +1,8 @@
 import React from 'react';
-import TaskForm from './TaskForm/TaskForm';
 import { Container, Row, Col } from 'reactstrap';
+
+import TaskForm from './TaskForm/TaskForm';
+import TaskList from './TaskList/TaskList';
 
 const TaskManager = () => {
 	return (
@@ -10,7 +12,7 @@ const TaskManager = () => {
 					<TaskForm />
 				</Col>
 				<Col>
-					<div>hi</div>
+					<TaskList />
 				</Col>
 			</Row>
 		</Container>

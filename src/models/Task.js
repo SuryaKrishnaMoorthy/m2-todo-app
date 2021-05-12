@@ -1,4 +1,4 @@
-export default class Task {
+class Task {
 		id;
 		title;
 		description;
@@ -13,3 +13,5 @@ export default class Task {
 			this.date = date;
 		}
 }
+
+export default Task;
